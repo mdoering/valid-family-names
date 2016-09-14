@@ -6,11 +6,8 @@
     <id index="0" />
     <field index="0" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
     <field index="1" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/>
-    <field index="2" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
-    <!--
-    <field index="2" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
-    -->
-    <field term="http://rs.tdwg.org/dwc/terms/taxonRank" default="family"/>
-    <field term="http://rs.tdwg.org/dwc/terms/kingdom" default="Plantae"/>
+    <field index="2" delimitedBy="," term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
+    <field default="family" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+    <field default="Plantae" term="http://rs.tdwg.org/dwc/terms/kingdom"/>
   </core>
 </archive>
