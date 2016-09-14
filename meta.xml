@@ -1,0 +1,16 @@
+<archive xmlns="http://rs.tdwg.org/dwc/text/" metadata="eml.xml">
+  <core encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="0" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
+    <files>
+      <location>families.tsv</location>
+    </files>
+    <id index="0" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+    <!--
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
+    -->
+    <field term="http://rs.tdwg.org/dwc/terms/taxonRank" default="family"/>
+    <field term="http://rs.tdwg.org/dwc/terms/kingdom" default="Plantae"/>
+  </core>
+</archive>
